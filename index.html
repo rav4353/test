@@ -363,7 +363,7 @@
 
             <!-- The <dialog> tag defines a dialog box or subwindow. -->
 
-            <dialog open>This is an open dialog window</dialog>
+            <dialog open="">This is an open dialog window</dialog>
 
 
 
@@ -435,26 +435,6 @@
                     <embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
 
                     -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-                    <!-- The <fieldset> tag is used to group related elements in a form.(container for form) -->
-
-
-                    <form action="/action_page.php">
-                        <fieldset>
-                            <legend>Personalia:</legend>
-                            <label for="fname">First name:</label>
-                            <input type="text" id="fname" name="fname"><br><br>
-                            <label for="lname">Last name:</label>
-                            <input type="text" id="lname" name="lname"><br><br>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email"><br><br>
-                            <label for="birthday">Birthday:</label>
-                            <input type="date" id="birthday" name="birthday"><br><br>
-                            <input type="submit" value="Submit">
-                        </fieldset>
-                    </form>
-
 
 
                     <!-- The <figcaption> tag defines a caption for a <figure> element.(font below image) -->
@@ -718,9 +698,9 @@
                                     <!-- The <nav> tag defines a set of navigation links. -->
 
                                     <nav>
-                                        <a href="/html/">HTML</a> |
-                                        <a href="/css/">CSS</a> |
-                                        <a href="/js/">JavaScript</a> |
+                                        <a href="/html/">HTML</a>
+                                        <a href="/css/">CSS</a>
+                                        <a href="/js/">JavaScript</a> 
                                         <a href="/python/">Python</a>
                                     </nav>
 
@@ -810,8 +790,7 @@
                                     <!-- The <pre> tag defines preformatted text.(same output as typed) -->
 
                                     <pre>
-            Text in a pre element
-            is displayed in a fixed-width
+            Text in a pre elementis displayed in a fixed-width
             font, and it preserves
             both      spaces and
             line breaks
@@ -1022,12 +1001,32 @@
                                     <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
 
 
+
+
+
                                         --------------------------------------------------------------------------------------------------------------------------------------------------
 
                                         --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
+  <!-- The <fieldset> tag is used to group related elements in a form.(container for form) -->
+
+
+                    <form action="/action_page.php">
+                        <fieldset>
+                            <legend>Personalia:</legend>
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email"><br><br>
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday"><br><br>
+                            <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
 
 
 
