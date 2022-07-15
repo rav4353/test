@@ -27,7 +27,7 @@
     <!-- The <a> (anchor) tag defines a hyperlink, which is used to link from one page to another. -->
 
     <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
-<a href="">hello</a>
+    <a href="">hello</a>
 
 
     <!-- this tag used to define abbrivation -->
@@ -56,9 +56,9 @@
         USA
     </address>
 
-<address>
-    hello
-</address>
+    <address>
+        hello
+    </address>
 
 
 
@@ -107,7 +107,8 @@
 
     <aside>
         <h4>Epcot Center</h4>
-        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
     </aside>
 
 
@@ -155,7 +156,7 @@
     <!-- The <bdo> tag is used to override the current text direction. -->
 
     <p><bdo dir="rtl">this paragraph will go right-to-left.</bdo>
-    <bdo dir="ltr">this paragraph will go right-to-left.</bdo></p>
+        <bdo dir="ltr">this paragraph will go right-to-left.</bdo></p>
 
 
     <!-- big-->
@@ -167,13 +168,13 @@
     <!-- blockquote-->
 
     <blockquote>-< blockquote>
-        The first version of HTML was written by Tim Berners-Lee in 1993.
-        Since then, there have been many different
-        The first version of HTML was written by Tim Berners-Lee in 1993.
-        Since then, there have been many different
-        versions of HTML. The most widely used version throughout the 2000's
-        was HTML 4.01, which became an official
-        standard in December 1999.
+            The first version of HTML was written by Tim Berners-Lee in 1993.
+            Since then, there have been many different
+            The first version of HTML was written by Tim Berners-Lee in 1993.
+            Since then, there have been many different
+            versions of HTML. The most widely used version throughout the 2000's
+            was HTML 4.01, which became an official
+            standard in December 1999.
     </blockquote>
 
 
@@ -220,584 +221,595 @@
 
 
     <!-- The <col> tag specifies column properties for each column within a <colgroup> element. -->
-    
-        <style>
-            table, th, td {
-              border: 1px solid black;
-            }
-            </style>
-            </head>
-            <body>
-            
-            <h1>The col element</h1>
-            
-            <table>
-              <colgroup>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1>The col element</h1>
+
+        <table>
+            <colgroup>
                 <col span="2" style="background-color:red">
                 <col style="background-color:yellow">
-              </colgroup>
-              <tr>
+            </colgroup>
+            <tr>
                 <th>ISBN</th>
                 <th>Title</th>
                 <th>Price</th>
-              </tr>
-              <tr>
+            </tr>
+            <tr>
                 <td>3476896</td>
                 <td>My first HTML</td>
                 <td>$53</td>
-              </tr>
-              <tr>
+            </tr>
+            <tr>
                 <td>5869207</td>
                 <td>My first CSS</td>
                 <td>$49</td>
-              </tr>
-            </table>
-
-
-
-    
-
-    <!-- The <colgroup> tag specifies a group of one or more columns in a table for formatting. -->
-
-
-        <style>
-            table, th, td {
-              border: 1px solid black;
-            }
-            </style>
-            </head>
-            <body>
-            
-            <h1>The colgroup element</h1>
-            
-            <table>
-              <colgroup>
-                <col span="2" style="background-color:red">
-                <col style="background-color:yellow">
-              </colgroup>
-              <tr>
-                <th>ISBN</th>
-                <th>Title</th>
-                <th>Price</th>
-              </tr>
-              <tr>
-                <td>3476896</td>
-                <td>My first HTML</td>
-                <td>$53</td>
-              </tr>
-              <tr>
-                <td>5869207</td>
-                <td>My first CSS</td>
-                <td>$49</td>
-              </tr>
-            </table>
+            </tr>
+        </table>
 
 
 
 
-    <!-- The <data> tag is used to add a machine-readable translation of a given content. -->
 
-    <ul>
-        <li><data value="21053">Cherry Tomato</data></li>
-        <li><data value="21054">Beef Tomato</data></li>
-        <li><data value="21055">Snack Tomato</data></li>
-    </ul>
-
-
-    <!-- The <datalist> tag specifies a list of pre-defined options for an <input> element. -->
-
-        <form action="/action_page.php" method="get">
-            <label for="browser">Choose your browser from the list:</label>
-            <input list="browsers" name="browser" id="browser">
-            <datalist id="browsers">
-              <option value="Edge">
-              <option value="Firefox">
-              <option value="Chrome">
-              <option value="Opera">
-              <option value="Safari">
-            </datalist>
-            <input type="submit">
-          </form>
-
-
-
-    <!-- The <dd> tag is used to describe a term/name in a description list. -->
-
-
-        <dl>
-            <dt>Coffee</dt>
-            <dd>Black hot drink</dd>
-            <dt>Milk</dt>
-            <dd>White cold drink</dd>
-          </dl>
-
-
-    
-    <!-- The <del> tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text. -->
-
-    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
-
-
-
-    <!-- The <details> tag specifies additional details that the user can open and close on demand. -->
-
-    <details>
-        <summary>Epcot Center</summary>
-        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-    </details>
-
-
-    <!-- The <dfn> tag stands for the "definition element", and it specifies a term that is going to be defined within the content. -->
-
-    <p><dfn title="Hyper Text Markup Language">HTML</dfn> is the standard markup language for creating web pages.</p>
-
-
-    <!-- The <dialog> tag defines a dialog box or subwindow. -->
-
-    <dialog open>This is an open dialog window</dialog>
-
-    
-
-    <!-- <dir> -->
-
-    Not Supported in HTML5.
-    The <dir> tag was used in HTML 4 to list directory titles.
-
-    <!-- Use Instead ul list -->
-
-
-
-    <!-- The <div> tag defines a division or a section in an HTML document. -->
+        <!-- The <colgroup> tag specifies a group of one or more columns in a table for formatting. -->
 
 
         <style>
-            .myDiv {
-              border: 5px outset red;
-              background-color: lightblue;    
-              text-align: center;
+            table,
+            th,
+            td {
+                border: 1px solid black;
             }
         </style>
-            </head>
-            <body>
-            
-            <h1>The div element</h1>
-            
-            <div class="myDiv">
-              <h2>This is a heading in a div element</h2>
-              <p>This is some text in a div element.</p>
-            </div>
-            
-
-
-
-    <!-- The <dl> tag defines a description list. -->
-
-        <dl>
-            <dt>Coffee</dt>
-            <dd>Black hot drink</dd>
-            <dt>Milk</dt>
-            <dd>White cold drink</dd>
-          </dl>
-
-
-    <!-- The <dt> tag defines a term/name in a description list. -->
-
-        <dl>
-            <dt>Coffee</dt>
-            <dd>Black hot drink</dd>
-            <dt>Milk</dt>
-            <dd>White cold drink</dd>
-          </dl>
-
-    
-
-    <!-- The <em> tag is used to define emphasized text. The content inside is typically displayed in italic. -->
-
-
-        <p>You <em>have</em> to hurry up!</p>
-
-        <p>We <em>cannot</em> live like this.</p>
-
-
-    
-    <!-- The <embed> tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application. -->
-
-    <embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
-        
-        
-    <!-- The <fieldset> tag is used to group related elements in a form.(container for form) -->
-
-
-        <form action="/action_page.php">
-            <fieldset>
-              <legend>Personalia:</legend>
-              <label for="fname">First name:</label>
-              <input type="text" id="fname" name="fname"><br><br>
-              <label for="lname">Last name:</label>
-              <input type="text" id="lname" name="lname"><br><br>
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email"><br><br>
-              <label for="birthday">Birthday:</label>
-              <input type="date" id="birthday" name="birthday"><br><br>
-              <input type="submit" value="Submit">
-            </fieldset>
-        </form>
-
-    
-    
-    <!-- The <figcaption> tag defines a caption for a <figure> element.(font below image) -->
-
-        <figure>
-            <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
-            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-          </figure>
-
-
-
-    <!-- The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.(div for figcaption) -->
-
-        <figure>
-            <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
-            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-          </figure>
-        
-        
-    
-    
-    <!-- <font> -->
-    
-    
-    The <font> tag was used in HTML 4 to specify the font face, font size, and color of text.
-
-
-    
-    <!-- The <footer> tag defines a footer for a document or section. Inline-->
-
-        <footer>
-            <p>Author: Hege Refsnes</p>
-            <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-        </footer>
-
-    
-    
-
-    <!-- The <form> tag is used to create an HTML form for user input. Inline-->
-
-    
-        <form action="/action_page.php" method="get">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-
-
-
-    <!-- <frame> -->
-
-    Not Supported in HTML5.
-    The <frame> tag was used in HTML 4 to define one particular window (frame) within a <frameset>.
-
-    <!-- Use instead <iframe src="https://www.w3schools.com"></iframe> -->
-
-
-
-
-    <!-- <frameset> -->
-
-    Not Supported in HTML5.
-    The <frameset> tag was used in HTML 4 to define a frameset.
-
-    <!-- Use instead <iframe src="https://www.w3schools.com"></iframe> -->
-
-
-
-    <!-- The <h1> to <h6> tags are used to define HTML headings. Block-->
-
-        <h1>This is heading 1</h1>
-        <h2>This is heading 2</h2>
-        <h3>This is heading 3</h3>
-        <h4>This is heading 4</h4>
-        <h5>This is heading 5</h5>
-        <h6>This is heading 6</h6>
-
-
-    
-    
-    <!-- The <head> element is a container for metadata. Inline-->
-
-        <head>
-            <title>Title of the document</title>
         </head>
 
+        <body>
 
+            <h1>The colgroup element</h1>
 
-
-    <!-- The <header> element represents a container for introductory content or a set of navigational links. Block-->
-
-        <header>
-            <h1>A heading here</h1>
-            <p>Posted by John Doe</p>
-            <p>Some additional information here</p>
-        </header>
-
-    
-    
-    <!-- The <hr> tag defines a thematic break in an HTML page. Inline-->
-
-    <hr>
-
-
-    <!-- The <html> tag represents the root of an HTML document. -->
-
-        <html lang="en">
-
-
-    <!-- The <i> tag defines a part of text in an alternate voice or mood -->
-
-        <p><i>ravanth</i> is the most popular filler text in history.</p>
-
-
-
-
-    <!-- The <iframe> tag specifies an inline frame. -->
-
-    <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
-
-
-
-    <!-- The <img> tag is used to embed an image in an HTML page. -->
-
-    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
-
-
-
-    <!-- The <input> tag specifies an input field where the user can enter data. -->
-
-    <form action="/action_page.php">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-
-
-
-    <!-- The <ins> tag defines a text that has been inserted into a document -->
-    
-    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+            <table>
+                <colgroup>
+                    <col span="2" style="background-color:red">
+                    <col style="background-color:yellow">
+                </colgroup>
+                <tr>
+                    <th>ISBN</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>3476896</td>
+                    <td>My first HTML</td>
+                    <td>$53</td>
+                </tr>
+                <tr>
+                    <td>5869207</td>
+                    <td>My first CSS</td>
+                    <td>$49</td>
+                </tr>
+            </table>
 
 
 
 
-    <!-- The <kbd> tag is used to define keyboard input -->
+            <!-- The <data> tag is used to add a machine-readable translation of a given content. -->
 
-    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
-
-
-
-
-
-    <!-- The <label> tag defines a label for several elements: -->
-
-    <label for="html">First name</label>
-
-
-
-    <!-- The <legend> tag defines a caption for the <fieldset> element. -->
-
-        <form action=">
-            <fieldset>
-             <legend>Personalia:</legend>
-             <label for="fname">First name:</label>
-             <input type="text" id="fname" name="fname"><br><br>
-             <label for="lname">Last name:</label>
-             <input type="text" id="lname" name="lname"><br><br>
-             <label for="email">Email:</label>
-             <input type="email" id="email" name="email"><br><br>
-             <label for="birthday">Birthday:</label>
-             <input type="date" id="birthday" name="birthday"><br><br>
-             <input type="submit" value="Submit">
-            </fieldset>
-           </form>
-
-
-    <!-- The <li> tag defines a list item. -->
-
-            <ol type="">
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
-            </ol>
-            
             <ul>
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
+                <li><data value="21053">Cherry Tomato</data></li>
+                <li><data value="21054">Beef Tomato</data></li>
+                <li><data value="21055">Snack Tomato</data></li>
             </ul>
 
 
-    <!-- The <link> tag defines the relationship between the current document and an external resource. -->
+            <!-- The <datalist> tag specifies a list of pre-defined options for an <input> element. -->
 
-
-    <link rel="stylesheet" href="styles.css">
-
-
-    <!-- The <main> tag specifies the main content of a document. -->
-
-        <main>
-            <h1>Most Popular Browsers</h1>
-            <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
-          
-            <article>
-              <h2>Google Chrome</h2>
-              <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-            </article>
-          
-        </main>
-
-
-    <!-- The <map> tag is used to define an image map. -->
-
-        <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
-
-        <map name="workmap">
-          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-          <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-          <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
-        </map>
-
-
-    
-    <!-- The <mark> tag defines text that should be marked or highlighted. -->
-
-    <p>Do not forget to buy <mark>milk</mark> today.</p>
+            <form action="/action_page.php" method="get">
+                <label for="browser">Choose your browser from the list:</label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+                <input type="submit">
+            </form>
 
 
 
-    <!-- The <meta> tag defines metadata about an HTML document. Metadata is data (information to know about the file) about data. -->
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="John Doe">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+            <!-- The <dd> tag is used to describe a term/name in a description list. -->
 
 
-
-
-    <!-- The <meter> tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge. (rating or vote)-->
-
-        <label for="disk_c">Disk usage C:</label>
-        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
-        
-        <label for="disk_d">Disk usage D:</label>
-        <meter id="disk_d" value="0.6">60%</meter>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+            </dl>
 
 
 
+            <!-- The <del> tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text. -->
 
-    <!-- The <nav> tag defines a set of navigation links. -->
-
-        <nav>
-            <a href="/html/">HTML</a> |
-            <a href="/css/">CSS</a> |
-            <a href="/js/">JavaScript</a> |
-            <a href="/python/">Python</a>
-        </nav>
+            <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
 
 
-    
-    
-    
-    <!-- Not Supported in HTML5.
+
+            <!-- The <details> tag specifies additional details that the user can open and close on demand. -->
+
+            <details>
+                <summary>Epcot Center</summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international
+                    pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+
+
+            <!-- The <dfn> tag stands for the "definition element", and it specifies a term that is going to be defined within the content. -->
+
+            <p><dfn title="Hyper Text Markup Language">HTML</dfn> is the standard markup language for creating web
+                pages.</p>
+
+
+            <!-- The <dialog> tag defines a dialog box or subwindow. -->
+
+            <dialog open>This is an open dialog window</dialog>
+
+
+
+            <!-- <dir> -->
+
+            Not Supported in HTML5.
+            The <dir> tag was used in HTML 4 to list directory titles.
+
+                <!-- Use Instead ul list -->
+
+
+
+                <!-- The <div> tag defines a division or a section in an HTML document. -->
+
+
+                <style>
+                    .myDiv {
+                        border: 5px outset red;
+                        background-color: lightblue;
+                        text-align: center;
+                    }
+                </style>
+                </head>
+
+                <body>
+
+                    <h1>The div element</h1>
+
+                    <div class="myDiv">
+                        <h2>This is a heading in a div element</h2>
+                        <p>This is some text in a div element.</p>
+                    </div>
+
+
+
+
+                    <!-- The <dl> tag defines a description list. -->
+
+                    <dl>
+                        <dt>Coffee</dt>
+                        <dd>Black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>White cold drink</dd>
+                    </dl>
+
+
+                    <!-- The <dt> tag defines a term/name in a description list. -->
+
+                    <dl>
+                        <dt>Coffee</dt>
+                        <dd>Black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>White cold drink</dd>
+                    </dl>
+
+
+
+                    <!-- The <em> tag is used to define emphasized text. The content inside is typically displayed in italic. -->
+
+
+                    <p>You <em>have</em> to hurry up!</p>
+
+                    <p>We <em>cannot</em> live like this.</p>
+
+
+
+                    <!-- The <embed> tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application. -->
+
+                    <embed type="image/jpg" src="pic_trulli.jpg" width="300" height="200">
+
+                    -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                    <!-- The <fieldset> tag is used to group related elements in a form.(container for form) -->
+
+
+                    <form action="/action_page.php">
+                        <fieldset>
+                            <legend>Personalia:</legend>
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email"><br><br>
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday"><br><br>
+                            <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+
+
+
+                    <!-- The <figcaption> tag defines a caption for a <figure> element.(font below image) -->
+
+                    <figure>
+                        <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+                        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                    </figure>
+
+
+
+                    <!-- The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.(div for figcaption) -->
+
+                    <figure>
+                        <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+                        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                    </figure>
+
+
+
+
+                    <!-- <font> -->
+
+
+                    The <font> tag was used in HTML 4 to specify the font face, font size, and color of text.
+
+
+
+                        <!-- The <footer> tag defines a footer for a document or section. Inline-->
+
+                        <footer>
+                            <p>Author: Hege Refsnes</p>
+                            <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+                        </footer>
+
+
+
+
+                        <!-- The <form> tag is used to create an HTML form for user input. Inline-->
+
+
+                        <form action="/action_page.php" method="get">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                            <input type="submit" value="Submit">
+                        </form>
+
+
+
+                        <!-- <frame> -->
+
+                        Not Supported in HTML5.
+                        The <frame> tag was used in HTML 4 to define one particular window (frame) within a <frameset>.
+
+                                <!-- Use instead <iframe src="https://www.w3schools.com"></iframe> -->
+
+
+
+
+                                <!-- <frameset> -->
+
+                                Not Supported in HTML5.
+                                The <frameset> tag was used in HTML 4 to define a frameset.
+
+                                    <!-- Use instead <iframe src="https://www.w3schools.com"></iframe> -->
+
+
+
+                                    <!-- The <h1> to <h6> tags are used to define HTML headings. Block-->
+
+                                    <h1>This is heading 1</h1>
+                                    <h2>This is heading 2</h2>
+                                    <h3>This is heading 3</h3>
+                                    <h4>This is heading 4</h4>
+                                    <h5>This is heading 5</h5>
+                                    <h6>This is heading 6</h6>
+
+
+
+
+                                    <!-- The <head> element is a container for metadata. Inline-->
+
+                                    <head>
+                                        <title>Title of the document</title>
+                                    </head>
+
+
+
+
+                                    <!-- The <header> element represents a container for introductory content or a set of navigational links. Block-->
+
+                                    <header>
+                                        <h1>A heading here</h1>
+                                        <p>Posted by John Doe</p>
+                                        <p>Some additional information here</p>
+                                    </header>
+
+
+
+                                    <!-- The <hr> tag defines a thematic break in an HTML page. Inline-->
+
+                                    <hr>
+
+
+                                    <!-- The <html> tag represents the root of an HTML document. -->
+
+                                    <html lang="en">
+
+
+                                    <!-- The <i> tag defines a part of text in an alternate voice or mood -->
+
+                                    <p><i>ravanth</i> is the most popular filler text in history.</p>
+
+
+
+
+                                    <!-- The <iframe> tag specifies an inline frame. -->
+
+                                    <iframe src="https://www.w3schools.com"
+                                        title="W3Schools Free Online Web Tutorials"></iframe>
+
+
+
+                                    <!-- The <img> tag is used to embed an image in an HTML page. -->
+
+                                    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+
+
+                                    <!-- The <input> tag specifies an input field where the user can enter data. -->
+
+                                    <form action="/action_page.php">
+                                        <label for="fname">First name:</label>
+                                        <input type="text" id="fname" name="fname"><br><br>
+                                        <label for="lname">Last name:</label>
+                                        <input type="text" id="lname" name="lname"><br><br>
+                                        <input type="submit" value="Submit">
+                                    </form>
+
+
+
+                                    <!-- The <ins> tag defines a text that has been inserted into a document -->
+
+                                    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+
+
+
+                                    <!-- The <kbd> tag is used to define keyboard input -->
+
+                                    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+
+
+
+
+                                    <!-- The <label> tag defines a label for several elements: -->
+
+                                    <label for="html">First name</label>
+
+
+
+                                    <!-- The <legend> tag defines a caption for the <fieldset> element. -->
+
+                                    <form action=">
+            <fieldset>
+             <legend>Personalia:</legend>
+             <label for=" fname">First name:</label>
+                                        <input type="text" id="fname" name="fname"><br><br>
+                                        <label for="lname">Last name:</label>
+                                        <input type="text" id="lname" name="lname"><br><br>
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" name="email"><br><br>
+                                        <label for="birthday">Birthday:</label>
+                                        <input type="date" id="birthday" name="birthday"><br><br>
+                                        <input type="submit" value="Submit">
+                                        </fieldset>
+                                    </form>
+
+
+                                    <!-- The <li> tag defines a list item. -->
+
+                                    <ol type="">
+                                        <li>Coffee</li>
+                                        <li>Tea</li>
+                                        <li>Milk</li>
+                                    </ol>
+
+                                    <ul>
+                                        <li>Coffee</li>
+                                        <li>Tea</li>
+                                        <li>Milk</li>
+                                    </ul>
+
+
+                                    <!-- The <link> tag defines the relationship between the current document and an external resource. -->
+
+
+                                    <link rel="stylesheet" href="styles.css">
+
+
+                                    <!-- The <main> tag specifies the main content of a document. -->
+
+                                    <main>
+                                        <h1>Most Popular Browsers</h1>
+                                        <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+                                        <article>
+                                            <h2>Google Chrome</h2>
+                                            <p>Google Chrome is a web browser developed by Google, released in 2008.
+                                                Chrome is the world's most popular web browser today!</p>
+                                        </article>
+
+                                    </main>
+
+
+                                    <!-- The <map> tag is used to define an image map. -->
+
+                                    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+                                    <map name="workmap">
+                                        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                                        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                                        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                                    </map>
+
+
+
+                                    <!-- The <mark> tag defines text that should be marked or highlighted. -->
+
+                                    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+
+
+                                    <!-- The <meta> tag defines metadata about an HTML document. Metadata is data (information to know about the file) about data. -->
+
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="description" content="Free Web tutorials">
+                                        <meta name="keywords" content="HTML, CSS, JavaScript">
+                                        <meta name="author" content="John Doe">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                    </head>
+
+
+
+
+                                    <!-- The <meter> tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge. (rating or vote)-->
+
+                                    <label for="disk_c">Disk usage C:</label>
+                                    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+                                    <label for="disk_d">Disk usage D:</label>
+                                    <meter id="disk_d" value="0.6">60%</meter>
+
+
+
+
+                                    <!-- The <nav> tag defines a set of navigation links. -->
+
+                                    <nav>
+                                        <a href="/html/">HTML</a> |
+                                        <a href="/css/">CSS</a> |
+                                        <a href="/js/">JavaScript</a> |
+                                        <a href="/python/">Python</a>
+                                    </nav>
+
+
+
+
+
+                                    <!-- Not Supported in HTML5.
     The <noframes> tag was used in HTML 4 to act as a fallback tag for browsers that did not support frames.
     
     Use instead of <iframe> -->
 
 
 
-    <!-- The <object> tag defines a container for an (external resource to contant). -->
+                                    <!-- The <object> tag defines a container for an (external resource to contant). -->
 
-    <object data="pic_trulli.jpg" width="300" height="200"></object>
-
-
-
-
-    <!-- The <ol> tag defines an ordered list.  Block-->
-
-        <ol style="list-style-type:upper-roman">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol>
-
-
-
-    <!-- The <optgroup> tag is used to group related options in a <select> element (drop-down list sub heading). -->
-
-        <label for="cars">Choose a car:</label>
-        <select  name="cars" id="cars">
-          <optgroup label="Swedish Cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-          </optgroup>
-          <optgroup label="German Cars">
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-          </optgroup>
-        </select>
-
-
-
-    <!-- The <option> tag defines an option in a select list. (drop down)-->
-
-        <select id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-        </select>
+                                    <object data="pic_trulli.jpg" width="300" height="200"></object>
 
 
 
 
-    <!-- The <p> tag defines a paragraph. -->
+                                    <!-- The <ol> tag defines an ordered list.  Block-->
 
-        <p>This is some text in a paragraph.</p>
-
-
-
-    <!-- The <param> tag is used to define parameters for an <object> element. -->
-
-
-        <object data="horse.wav">
-            <param name="autoplay" value="true">
-        </object>
-
-
-    
-    <!-- The <picture> tag gives web developers more flexibility in specifying image resources. -->
-
-        <picture>
-            <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
-            <source media="(min-width:465px)" srcset="img_white_flower.jpg">
-            <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
-        </picture>
+                                    <ol style="list-style-type:upper-roman">
+                                        <li>Coffee</li>
+                                        <li>Tea</li>
+                                        <li>Milk</li>
+                                    </ol>
 
 
 
-    
+                                    <!-- The <optgroup> tag is used to group related options in a <select> element (drop-down list sub heading). -->
 
-    <!-- The <pre> tag defines preformatted text.(same output as typed) -->
+                                    <label for="cars">Choose a car:</label>
+                                    <select name="cars" id="cars">
+                                        <optgroup label="Swedish Cars">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                        </optgroup>
+                                        <optgroup label="German Cars">
+                                            <option value="mercedes">Mercedes</option>
+                                            <option value="audi">Audi</option>
+                                        </optgroup>
+                                    </select>
 
-        <pre>
+
+
+                                    <!-- The <option> tag defines an option in a select list. (drop down)-->
+
+                                    <select id="cars">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="opel">Opel</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
+
+
+
+
+                                    <!-- The <p> tag defines a paragraph. -->
+
+                                    <p>This is some text in a paragraph.</p>
+
+
+
+                                    <!-- The <param> tag is used to define parameters for an <object> element. -->
+
+
+                                    <object data="horse.wav">
+                                        <param name="autoplay" value="true">
+                                    </object>
+
+
+
+                                    <!-- The <picture> tag gives web developers more flexibility in specifying image resources. -->
+
+                                    <picture>
+                                        <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+                                        <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+                                        <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+                                    </picture>
+
+
+
+
+
+                                    <!-- The <pre> tag defines preformatted text.(same output as typed) -->
+
+                                    <pre>
             Text in a pre element
             is displayed in a fixed-width
             font, and it preserves
@@ -806,217 +818,213 @@
         </pre>
 
 
-    
-    <!-- The <progress> tag represents the completion progress of a task. -->
 
-        <label for="file">Downloading progress:</label>
-        <progress id="file" value="32" max="100"> 32% </progress>
+                                    <!-- The <progress> tag represents the completion progress of a task. -->
 
+                                    <label for="file">Downloading progress:</label>
+                                    <progress id="file" value="32" max="100"> 32% </progress>
 
 
-    <!-- The <q> tag defines a short quotation.("") -->
 
-        <p>WWF's goal is to:
-        <q>Build a future where people live in harmony with nature.</q>
-        We hope they succeed.</p>
+                                    <!-- The <q> tag defines a short quotation.("") -->
 
+                                    <p>WWF's goal is to:
+                                        <q>Build a future where people live in harmony with nature.</q>
+                                        We hope they succeed.</p>
 
-    
-    <!-- The <ruby> tag specifies a ruby annotation. -->
 
 
-        <ruby>
-            漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
-        </ruby>
+                                    <!-- The <ruby> tag specifies a ruby annotation. -->
 
 
+                                    <ruby>
+                                        漢 <rp>(</rp>
+                                        <rt>ㄏㄢˋ</rt>
+                                        <rp>)</rp>
+                                    </ruby>
 
 
-    <!-- sTRIKE text -->
 
-        <p><s>Only 50 tickets left!</s></p>
 
+                                    <!-- sTRIKE text -->
 
+                                    <p><s>Only 50 tickets left!</s></p>
 
-    <!-- The <samp> tag is used to define sample output from a computer program. (font)-->
 
-    <p><samp>File not found.<br>Press F1 to continue</samp></p>
 
+                                    <!-- The <samp> tag is used to define sample output from a computer program. (font)-->
 
-<p id="demo"></p>
-    <!-- The <script> tag is used to embed a client-side script (JavaScript). -->
+                                    <p><samp>File not found.<br>Press F1 to continue</samp></p>
 
-        <script>
-            document.getElementById("demo").innerHTML = "Hello JavaScript!";
-        </script>
 
+                                    <p id="demo"></p>
+                                    <!-- The <script> tag is used to embed a client-side script (JavaScript). -->
 
-    <!-- The <section> tag defines a section in a document.(div) -->
+                                    <script>
+                                        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+                                    </script>
 
-        <section>
-            <h2>WWF History</h2>
-            <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
-        </section>
 
+                                    <!-- The <section> tag defines a section in a document.(div) -->
 
-    <!-- The <select> element is used to create a (drop-down) list. -->
+                                    <section>
+                                        <h2>WWF History</h2>
+                                        <p>The World Wide Fund for Nature (WWF) is an international organization working
+                                            on issues regarding the conservation, research and restoration of the
+                                            environment, formerly named the World Wildlife Fund. WWF was founded in
+                                            1961.</p>
+                                    </section>
 
 
-        <label for="cars">Choose a car:</label>
+                                    <!-- The <select> element is used to create a (drop-down) list. -->
 
-        <select name="cars" id="cars">
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
-        </select>
 
+                                    <label for="cars">Choose a car:</label>
 
+                                    <select name="cars" id="cars">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="mercedes">Mercedes</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
 
-    <!-- The <small> tag defines smaller text (like copyright and other side-comments). -->
 
 
-    <p><small>This is some smaller text.</small></p>
+                                    <!-- The <small> tag defines smaller text (like copyright and other side-comments). -->
 
 
+                                    <p><small>This is some smaller text.</small></p>
 
-    <!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document. (to modifiy a specific item)-->
 
-    <p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
+                                    <!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document. (to modifiy a specific item)-->
 
+                                    <p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
-    <!-- The <strong> tag is used to define text with strong importance (bold)-->
 
 
-    <strong>This text is important!</strong>
+                                    <!-- The <strong> tag is used to define text with strong importance (bold)-->
 
 
+                                    <strong>This text is important!</strong>
 
-    <!-- The <style> tag is used to define style information (CSS) for a document.(INTERNAL) -->
 
-        <style>
-            h1 {color:red;}
-            p {color:blue;}
-        </style>
 
+                                    <!-- The <style> tag is used to define style information (CSS) for a document.(INTERNAL) -->
 
+                                    <style>
+                                        h1 {
+                                            color: red;
+                                        }
 
-    <!-- The <sub> tag defines subscript text.(BOTTOM) -->
+                                        p {
+                                            color: blue;
+                                        }
+                                    </style>
 
-    <p>This text contains <sub>subscript</sub> text.</p>
 
 
+                                    <!-- The <sub> tag defines subscript text.(BOTTOM) -->
 
-    <!-- The <sup> tag defines superscript text.(POWER) -->
+                                    <p>This text contains <sub>subscript</sub> text.</p>
 
-    <p>This text contains <sup>superscript</sup> text.</p>
 
 
+                                    <!-- The <sup> tag defines superscript text.(POWER) -->
 
+                                    <p>This text contains <sup>superscript</sup> text.</p>
 
-    <!-- The <svg> tag defines a container for SVG graphics.(TO DRAW SHAPES) -->
 
-        <svg width="100" height="100">
-            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
-        </svg>
 
 
-    <!-- The <table> tag defines an HTML table. -->
+                                    <!-- The <svg> tag defines a container for SVG graphics.(TO DRAW SHAPES) -->
 
-        <table>
-            <tr>
-              <th>Month</th>
-              <th>Savings</th>
-            </tr>
-            <tr>
-              <td>January</td>
-              <td>$100</td>
-            </tr>
-        </table>
+                                    <svg width="100" height="100">
+                                        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                                    </svg>
 
 
-    
-    <!-- The <textarea> tag defines a multi-line text input control. (ex:feedback box)-->
+                                    <!-- The <table> tag defines an HTML table. -->
 
-        <textarea id="w3review" name="w3review" rows="4" cols="50">
+                                    <table>
+                                        <tr>
+                                            <th>Month</th>
+                                            <th>Savings</th>
+                                        </tr>
+                                        <tr>
+                                            <td>January</td>
+                                            <td>$100</td>
+                                        </tr>
+                                    </table>
+
+
+
+                                    <!-- The <textarea> tag defines a multi-line text input control. (ex:feedback box)-->
+
+                                    <textarea id="w3review" name="w3review" rows="4" cols="50">
             At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
         </textarea>
 
 
 
-    <!-- The <track> tag specifies text tracks for <audio> or <video> elements. -->
+                                    <!-- The <track> tag specifies text tracks for <audio> or <video> elements. -->
 
 
-        <video width="320" height="240" controls>
-            <source src="forrest_gump.mp4" type="video/mp4">
-            <source src="forrest_gump.ogg" type="video/ogg">
-            <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
-            <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
-        </video>
+                                    <video width="320" height="240" controls>
+                                        <source src="forrest_gump.mp4" type="video/mp4">
+                                        <source src="forrest_gump.ogg" type="video/ogg">
+                                        <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                                        <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+                                    </video>
 
 
 
-    <!-- Not Supported in HTML5.
+                                    <!-- Not Supported in HTML5.
     The <tt> tag was used in HTML 4 to define teletype text.(c font)
 
     Use instead kbd. -->
-    
-    
-    <!-- ulderline -->
-
-    <p>This is some <u>mispeled</u> text.</p>
 
 
+                                    <!-- ulderline -->
 
-    <!-- The <ul> tag defines an unordered (bulleted) list. -->
-
-        <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul>
+                                    <p>This is some <u>mispeled</u> text.</p>
 
 
 
-    <!-- The <var> tag is used to defines a variable in programming or in a mathematical expression.  -->
+                                    <!-- The <ul> tag defines an unordered (bulleted) list. -->
 
-    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
-
-
-    <!-- The <video> tag is used to embed video content in a document, such as a movie clip or other video streams. -->
-
-        <video width="320" height="240" controls>
-            <source src="movie.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
+                                    <ul>
+                                        <li>Coffee</li>
+                                        <li>Tea</li>
+                                        <li>Milk</li>
+                                    </ul>
 
 
 
-    <!-- The <wbr> (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break. -->
+                                    <!-- The <var> tag is used to defines a variable in programming or in a mathematical expression.  -->
 
-    <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
-
-
-    --------------------------------------------------------------------------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------------------------------------------------------------------------------
+                                    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var>
+                                        is the base, and <var>h</var> is the vertical height.</p>
 
 
+                                    <!-- The <video> tag is used to embed video content in a document, such as a movie clip or other video streams. -->
 
-
-        
-
-
+                                    <video width="320" height="240" controls>
+                                        <source src="movie.mp4" type="video/mp4">
+                                        <source src="movie.ogg" type="video/ogg">
+                                        Your browser does not support the video tag.
+                                    </video>
 
 
 
+                                    <!-- The <wbr> (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break. -->
+
+                                    <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
 
 
+                                        --------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-    
+                                        --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -1033,5 +1041,21 @@
 
 
 
-    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </body>
+
 </html>
